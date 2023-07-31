@@ -4,7 +4,13 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+#body main section {
+	min-height: 600px;
+	width: 100%
+}
+.content {
+	width: 960px;
+}
 nav {
 	color: red;
 }
