@@ -4,24 +4,37 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#body main section {
-	min-height: 600px;
-	width: 100%
-}
+/* #body main section {
+	min-width: 100%;
+	max-width: 1600px;
+} */
 .content {
 	width: 960px;
 }
 nav {
 	color: red;
 }
+#body section,
+#body header,
+#body footer {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 #hero-section {
 	color: blue;
+	background-image: url(/Pictures/bgk-header.png);
+	/* Height noch anpassen */
+	height: 670px;
 }
 #our_story-section {
 	color: green;
 }
 #watch-section {
 	color: darkred;
+	background-image: url(/Pictures/bgk-middle.png);
+	/* Height noch anpassen */
+	height: 550px;
 }
 #expertise-section {
 	color: fuchsia;
@@ -34,4 +47,7 @@ nav {
 }
 footer {
 	color: blueviolet;
+	background-image: url(/Pictures/bgk-footer.png);
+	/* Height noch anpassen */
+	height: 397px;
 }
