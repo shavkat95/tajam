@@ -11,6 +11,9 @@ body {
 nav {
 	color: red;
 }
+#body section, #body footer {
+		padding: 4vw 0;
+}
 #body section,
 #body header,
 #body footer {
@@ -18,11 +21,12 @@ nav {
 	background-position: center center;
 	background-repeat: no-repeat;
 	width: 100vw;
+	margin: 0;
 }
 #hero-section {
 	color: blue;
 	background-image: url(/Pictures/bgk-header.png);
-	height: 41.9vw;
+	min-height: 41.9vw;
 }
 #our_story-section {
 	color: green;
