@@ -3,26 +3,33 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #5c5e7a;
+  background-color: #646570;
 }
 .content {
   width: 960px;
+  margin: auto;
 }
 nav {
   color: red;
+  position: absolute;
+  width: 100%;
 }
 #body section,
 #body footer {
   padding: 4vw 0;
 }
+
+#body nav {
+  margin: auto;
+}
+
 #body section,
-#body header,
 #body footer {
   background-size: cover;
   background-position: center center;
   background-repeat: repeat;
   background-color: white;
-  width: 1600px;
+  /* width: 1600px; */
   margin: auto;
 }
 #hero-section {
@@ -55,12 +62,9 @@ footer {
   /* min-height: 397px; */
 }
 
-#nav_bar {
-  position: absolute;
-}
 @media only screen and (min-width: 1601px) {
   #body section,
-  #body header,
+  #body nav,
   #body footer {
     width: 1600px;
   }
@@ -82,7 +86,7 @@ footer {
 }
 @media only screen and (max-width: 1600px) {
   #body section,
-  #body header,
+  #body nav,
   #body footer {
     width: 100vw;
   }
@@ -101,5 +105,10 @@ footer {
   footer {
     min-height: 24.8vw;
   }
+}
 
+@media only screen and (max-width: 960px) {
+  .content {
+    width: 100vw;
+  }
 }
