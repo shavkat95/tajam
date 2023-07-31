@@ -3,7 +3,7 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color: #ffffff;
+	background-color: #1C1E40;
 }
 .content {
 	width: 960px;
@@ -20,35 +20,62 @@ nav {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	width: 100vw;
-	margin: 0;
+	background-color: white;
+	width: 1600px;
+	margin: auto;
 }
 #hero-section {
 	color: blue;
-	background-image: url(/Pictures/bgk-header.png);
-	min-height: 41.9vw;
+	background-image: url(Pictures/bgk-header.png);
+	min-height: 670px;
 }
 #our_story-section {
 	color: green;
 }
 #watch-section {
 	color: darkred;
-	background-image: url(/Pictures/bgk-middle.png);
-	min-height: 34.4vw;
+	background-image: url(Pictures/bgk-middle.png);
+	min-height: 550px; 
 }
 #expertise-section {
 	color: fuchsia;
 }
 #team-section {
 	color: yellowgreen;
-	background-image: url(/Pictures/bgk-team.png);
-	min-height: 44.5vw;
+	background-image: url(Pictures/bgk-team.png);
+	min-height: 712px;
 }
 #contact_client-section {
 	color: lightsalmon;
 }
 footer {
 	color: blueviolet;
-	background-image: url(/Pictures/bgk-footer.png);
-	min-height: 24.8vw;
+	background-image: url(Pictures/bgk-footer.png);
+	min-height: 397px;
 }
+
+#nav_bar {
+	position: absolute;
+}
+
+@media only screen and (max-width: 1600px) {
+
+	#body footer {
+		width: 100vw;
+	}
+	#hero-section {
+		min-height: 41.9vw;
+	}
+
+	#watch-section {
+		min-height: 34.4vw; 
+	}
+
+	#team-section {
+		min-height: 44.5vw;
+	}
+
+	footer {
+		min-height: 24.8vw;
+	}
+  }
