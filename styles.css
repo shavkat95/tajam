@@ -56,8 +56,8 @@ img.logo_item {
   box-sizing: border-box;
   text-align: center;
   text-align: center;
-  padding-bottom: 5vw;
-  padding-top: 10vh;
+  padding-bottom: 2vw;
+  padding-top: 2vh;
   padding-left: 1vw;
   padding-right: 1vw;
 }
@@ -123,6 +123,8 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 5vw;
+  padding-top: 10vh;
 }
 
 .hero-content * {
@@ -164,6 +166,14 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.our_story_text {
+  width: 55%;
+}
+
+.our_story-content * {
+  padding: 2vw;
 }
 
 #watch-section {
