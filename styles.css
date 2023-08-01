@@ -56,8 +56,8 @@ img.logo_item {
   box-sizing: border-box;
   text-align: center;
   text-align: center;
-  padding-bottom: 2vw;
-  padding-top: 2vh;
+  padding-bottom: 1vw;
+  padding-top: 1vh;
   padding-left: 1vw;
   padding-right: 1vw;
 }
@@ -139,7 +139,6 @@ nav {
 .learn_more_button{
   height: 50px;
   width: 150px;
-  margin-top: 5vw;
   background-color: transparent;
   border-color: #00e0d0;
   color: #00e0d0;
@@ -147,6 +146,7 @@ nav {
   font-family: Roboto;
   font-weight: 900;
   border-radius: 5px;
+  color: black;
 }
 
 h3 {
@@ -169,11 +169,11 @@ p {
 }
 
 .our_story_text {
-  width: 55%;
+  width: 60%;
 }
 
 .our_story-content * {
-  padding: 2vw;
+  margin: 2vw;
 }
 
 #watch-section {
