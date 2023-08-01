@@ -54,6 +54,7 @@ img.logo_item {
   width: 960px;
   margin: auto;
   box-sizing: border-box;
+  text-align: center;
 }
 
 nav {
@@ -159,9 +160,13 @@ p {
   line-height: 1.5rem;
 }
 
-#our_story-section {
-  color: green;
+#our_story-section .our_story-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
 #watch-section {
   color: darkred;
   background-image: url(Pictures/bgk-middle.png);
