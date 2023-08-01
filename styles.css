@@ -7,12 +7,39 @@ body {
   color: black;
 }
 
+/* 
+
+
+H: Playfair Black
+Nav: Roboto Black
+Tajam Logo: Roboto Thin linear gradient to right 00e0d0 -> 4aa3cc
+P: Roboto Light
+
+
+*/
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #637380;
+  cursor: pointer;
+  background: linear-gradient(0.25turn, #00e0d0, #4aa3cc);;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .dark_background {
   color: white;
 }
 
 .dark_background a {
   color: white;
+  text-decoration: none;
+}
+
+.logo_item {
+  cursor: pointer;
+  margin-left: 15px;
 }
 
 .content {
@@ -26,6 +53,7 @@ nav {
   right: 0; 
   margin-left: auto; 
   margin-right: auto;
+  /* height: 30vw; */
 }
 
 #nav_bar{
@@ -35,11 +63,21 @@ nav {
 
 #navigation{
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
-#navigation > a {
-  margin: 5px;
+#navigation a {
+  margin-left: 0.9vw;
+  font-family: Roboto;
+  font-weight: 900;
   /* text-decoration: none; */
+}
+
+
+#navigation .row_2 {
+  display: none;
 }
 
 #body section,
@@ -87,19 +125,11 @@ footer {
 }
 
 .logo {
-  font-family: 'Raleway Dots', cursive;
-  font-size: 2.3rem;
-  color: #637380;
-  text-shadow: 
-  0 0 2px #C4D9EA,
-  0 0 4px #C4D9EA,
-  0 0 7px #C4D9EA,
-  0 0 17px #7AA6CB,
-  0 0 27px #7AA6CB,
-  0 0 40px #7AA6CB,
-  0 0 70px #7AA6CB,
-  0 0 100px #7AA6CB;
-  cursor: pointer;
+  /* font-family: 'Raleway Dots', cursive; */
+  display: flex;
+  align-items: center;
+  padding-right: 120px;
+  height: 100px;
 }
 
 @media only screen and (min-width: 1601px) {
@@ -125,6 +155,8 @@ footer {
   }
 }
 @media only screen and (max-width: 1600px) {
+
+
   #body section,
   #body nav,
   #body footer {
@@ -148,7 +180,37 @@ footer {
 }
 
 @media only screen and (max-width: 960px) {
+
+  #navigation a {
+    /* margin-left: 0.6vw; */
+    margin-left: 38px;
+    /* font-weight: 600; */
+    /* font-size: medium; */
+    /* text-decoration: none; */
+  }
+
+  #navigation .row_2 {
+    display: flex;
+  }
+
+  #navigation{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+  }
+
+  #home_button {
+    margin-left: 0vw;
+  }
+
   .content {
     width: 100vw;
+  }
+
+
+
+  #navigation .row_-1 {
+    display: none;
   }
 }
