@@ -41,15 +41,19 @@ h1 {
   color: white;
 }
 
-
-.logo_item {
+.logo{
   cursor: pointer;
+}
+
+img.logo_item {
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .content {
   width: 960px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 nav {
@@ -71,6 +75,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   line-height: 0.3rem;
+  height: 100px;
 }
 
 #navigation a {
@@ -94,7 +99,7 @@ nav {
 #body section,
 #body footer {
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: repeat;
   background-color: white;
   /* width: 1600px; */
@@ -113,7 +118,11 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 7vw;
+  padding-bottom: 5vw;
+  padding-top: 10vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
 }
 
 .hero-content * {
@@ -121,8 +130,8 @@ nav {
 }
 
 #hero-section hr.solid {
-  width: 14px;
-  border-top: 3px solid #00e0d0;
+  width: 10px;
+  border-top: 1px solid #00e0d0;
 }
 
 #hero-section .hero_button{
@@ -133,17 +142,21 @@ nav {
   border-color: #00e0d0;
   color: #00e0d0;
   cursor: pointer;
+  font-family: Roboto;
+  font-weight: 900;
+  border-radius: 5px;
 }
 
 h3 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+  font-size: 2rem;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  line-height: 2.5rem;
+  line-height: 1.5rem;
 }
 
 #our_story-section {
@@ -242,10 +255,14 @@ footer {
 
   #navigation a {
     font-size: 0.9rem;
-    margin-left: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 
 
+  /* #navigation {
+    height: 90px;
+  } */
 
 
 
@@ -263,7 +280,8 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-end;
-    height: 140px;
+    height: 120px;
+    line-height: 0.4rem;
   }
 
   #navigation .row_2 {
@@ -284,27 +302,37 @@ footer {
   #navigation a {
     font-size: 0.8rem;
     margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
 
 
 @media only screen and (max-width: 750px) { 
 
+  #navigation {
+    line-height: 0.3rem;
+    height: 100px;
+  }
+
   #navigation a {
     font-size: 0.75rem;
+    margin-left: 4vw;
+    margin-right: 4vw;
   }
 
 }
 
 @media only screen and (max-width: 720px) { 
 
-  navigation {
-    
-    line-height: 1rem;
+  #navigation {
+    line-height: 0.25rem;
+    height: 90px;
   }
 
   #navigation a {
     font-size: 0.7rem;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
 
 }
