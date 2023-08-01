@@ -310,7 +310,7 @@ footer {
 @media only screen and (max-width: 750px) { 
 
   #navigation {
-    line-height: 0.3rem;
+    line-height: 0.315rem;
     height: 100px;
   }
 
@@ -325,8 +325,7 @@ footer {
 @media only screen and (max-width: 720px) { 
 
   #navigation {
-    line-height: 0.25rem;
-    height: 90px;
+    line-height: 0.3rem;
   }
 
   #navigation a {
@@ -335,4 +334,17 @@ footer {
     margin-right: 3vw;
   }
 
+}
+
+@media only screen and (max-height: 520px) {
+
+  #navigation {
+    line-height: 0.4rem;
+  }
+
+  #navigation a {
+    font-size: 0.5rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
 }
