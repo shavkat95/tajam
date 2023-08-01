@@ -132,8 +132,9 @@ nav {
 }
 
 #hero-section hr.solid {
-  width: 10px;
+  width: 50px;
   border-top: 1px solid #00e0d0;
+  margin-top: 1.3vh;
 }
 
 .learn_more_button{
@@ -152,6 +153,7 @@ h3 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 2rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -172,7 +174,7 @@ p {
 }
 
 .our_story-content * {
-  margin: 1vw;
+  margin: 0.5vw;
 }
 
 #watch-section {
