@@ -187,74 +187,73 @@ p {
 #watch-section {
 	color: darkred;
 	background-image: url(Pictures/bgk-middle.png);
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	/* min-height: 550px; */
 }
-#watch{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#watch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-#play{
-  display: flex;
-  height: 60px;
-  width: 60px;
-  justify-content: center;
+#play {
+	display: flex;
+	height: 60px;
+	width: 60px;
+	justify-content: center;
 }
 
 #expertise-section {
 	color: fuchsia;
+	background-color: white;
 }
 #team-section {
 	color: white;
-  font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	background-image: url(Pictures/bgk-team.png);
 	/* min-height: 712px; */
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
-#team-head{ 
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
+#team-head {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
 }
-#team{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 40px;
+#team {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 40px;
 }
-#picture{
-  margin: 10px;
+#picture {
+	margin: 10px;
 }
-#teampic{
-  height: 150px;
-  width: 150px;
+#teampic {
+	height: 150px;
+	width: 150px;
 }
-#btn-hiring{
-  font-family: 'Roboto', sans-serif;
-  background-color: transparent;
-  border: solid;
-  border-radius: 5px;
-  border-color: #00e0d0;
-  color: #00e0d0;
-  margin-bottom: 60px;
-  font-family: Roboto;
-  font-weight: 900;
-  padding: 20px;
+#btn-hiring {
+	height: 50px;
+	width: 150px;
+	background-color: transparent;
+	border-color: #00e0d0;
+	color: #00e0d0;
+	cursor: pointer;
+	font-family: Roboto;
+	font-weight: 900;
+	border-radius: 5px;
+	text-transform: uppercase;
 }
-#contact_client-section {
-	color: lightsalmon;
-}
+
 footer {
 	background-image: url(Pictures/bgk-footer.png);
 	min-height: 12.4vw;
@@ -415,6 +414,20 @@ footer {
 	#legal-links ul {
 		margin: 0;
 	}
+	.contact {
+		flex-direction: column;
+		align-items: center;
+		width: 100vw;
+		padding: 1rem 0;
+	}
+	.form,
+	.testimonials {
+		margin: 2rem 0 2rem 0;
+	}
+	div.form,
+	div.testimonials {
+		width: 75%;
+	}
 }
 
 @media only screen and (max-height: 520px) {
@@ -497,10 +510,15 @@ footer form {
 	border-radius: 0;
 	background: none;
 	margin-right: 0.75em;
+	color: white;
+	text-indent: 5%;
 }
-input::placeholder {
+footer input::placeholder {
 	color: rgba(255, 255, 255, 0.75);
-	padding-left: 5%;
+}
+#nl-email:focus {
+	outline: none;
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.3);
 }
 #nl-submit {
 	background-color: rgba(255, 255, 255, 0.5);
@@ -508,6 +526,7 @@ input::placeholder {
 	width: 6em;
 	border: none;
 	border-radius: 0;
+	cursor: pointer;
 }
 #nl-submit img {
 	margin: auto;
@@ -541,4 +560,73 @@ input::placeholder {
 #copy p {
 	font-size: 0.8em;
 	font-weight: 600;
+}
+
+#contact_client-section {
+	background-color: white;
+	min-height: 654px;
+	display: flex;
+	align-items: center;
+}
+.contact {
+	display: flex;
+	justify-content: space-between;
+
+	max-width: 960px;
+	margin: 0 auto;
+	height: fit-content;
+}
+.form {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form input,
+.form textarea {
+	width: 100%;
+	margin: 0.75rem 0;
+	text-indent: 1rem;
+	padding: 0.7rem 0;
+}
+.form textarea {
+	resize: none;
+	overflow: auto;
+}
+.contact h3 {
+	font-family: "Playfair Black", serif;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	margin: 0 0 0.5rem 0;
+	align-self: flex-start;
+}
+.contact input::placeholder,
+.contact textarea::placeholder {
+	font-family: "Roboto", sans-serif;
+}
+.form button {
+	height: 50px;
+	width: 150px;
+	background-color: transparent;
+	border-color: #00e0d0;
+	color: #00e0d0;
+	cursor: pointer;
+	font-family: Roboto;
+	font-weight: 900;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.testimonials {
+	height: 100%;
+	width: 45%;
+}
+.clients {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.clients img {
+	width: 40%;
+	margin-top: 1.2rem;
 }
