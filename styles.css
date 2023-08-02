@@ -187,15 +187,70 @@ p {
 #watch-section {
 	color: darkred;
 	background-image: url(Pictures/bgk-middle.png);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	/* min-height: 550px; */
 }
+#watch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#play{
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+}
+
 #expertise-section {
 	color: fuchsia;
 }
 #team-section {
-	color: yellowgreen;
+	color: white;
+  font-family: 'Roboto', sans-serif;
 	background-image: url(Pictures/bgk-team.png);
 	/* min-height: 712px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#team-head{ 
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+#team{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#picture{
+  margin: 10px;
+}
+#teampic{
+  height: 150px;
+  width: 150px;
+}
+#btn-hiring{
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: solid;
+  border-radius: 5px;
+  border-color: #00e0d0;
+  color: #00e0d0;
+  margin-bottom: 60px;
+  font-family: Roboto;
+  font-weight: 900;
+  padding: 20px;
 }
 #contact_client-section {
 	color: lightsalmon;
