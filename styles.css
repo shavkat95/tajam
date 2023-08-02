@@ -493,10 +493,10 @@ footer p {
 	margin-right: 1em;
 }
 .location {
-	content: url(/Pictures/svg/big104.svg);
+	content: url(./Pictures/svg/big104.svg);
 }
 .phone {
-	content: url(/Pictures/svg/phone351.svg);
+	content: url(./Pictures/svg/phone351.svg);
 }
 footer form {
 	display: flex;
@@ -590,6 +590,10 @@ footer input::placeholder {
 	padding: 0.7rem 0;
 	border-radius: 0;
 	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.form input:focus,
+.form textarea:focus {
+	outline: none;
 }
 .form textarea {
 	resize: none;
