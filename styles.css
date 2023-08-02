@@ -188,6 +188,7 @@ p {
   color: darkred;
   background-image: url(Pictures/bgk-middle.png);
   color: white;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +212,8 @@ p {
   color: fuchsia;
 }
 #team-section {
-  color: white;;
+  color: white;
+  font-family: 'Roboto', sans-serif;
   background-image: url(Pictures/bgk-team.png);
   /* min-height: 712px; */
   display: flex;
@@ -220,7 +222,7 @@ p {
   align-items: center;
   text-align: center;
 }
-#team-head{
+#team-head{ 
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
@@ -228,6 +230,7 @@ p {
 #team{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-bottom: 40px;
 }
 #picture{
@@ -238,10 +241,16 @@ p {
   width: 150px;
 }
 #btn-hiring{
+  font-family: 'Roboto', sans-serif;
   background-color: transparent;
-  border: 5px;
-  border-color: yellow;
-  color: yellow;
+  border: solid;
+  border-radius: 5px;
+  border-color: #00e0d0;
+  color: #00e0d0;
+  margin-bottom: 60px;
+  font-family: Roboto;
+  font-weight: 900;
+  padding: 20px;
 }
 #contact_client-section {
   color: lightsalmon;
