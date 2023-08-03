@@ -209,8 +209,26 @@ p {
 }
 
 #expertise-section {
-	color: fuchsia;
+	/* color: fuchsia; */
+	display: flex;
+	justify-content: center;
 }
+
+#expertise_block{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.expertise_link {
+	width: 30%;
+	padding-top: 1vh;;
+	padding-bottom: 1vh;
+	cursor: pointer;
+}
+
 #team-section {
 	color: white;
   font-family: 'Roboto', sans-serif;
@@ -322,6 +340,10 @@ footer {
 		margin-left: 0vw;
 	}
 
+	.expertise_link {
+		width: 45%;
+	}
+
 	.content {
 		width: 100vw;
 	}
@@ -392,6 +414,10 @@ footer {
 @media only screen and (max-width: 720px) {
 	#navigation {
 		line-height: 0.3rem;
+	}
+
+	.expertise_link {
+		width: 70%;
 	}
 
 	#navigation a {
