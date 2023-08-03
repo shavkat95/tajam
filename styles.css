@@ -268,6 +268,7 @@ p {
 	font-weight: 900;
 	border-radius: 5px;
 	text-transform: uppercase;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -395,6 +396,13 @@ footer {
 		margin-left: 5vw;
 		margin-right: 5vw;
 	}
+
+  #team{
+    display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  margin-bottom: 40px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -450,6 +458,12 @@ footer {
 	div.testimonials {
 		width: 75%;
 	}
+  #team{
+    display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  margin-bottom: 40px;
+  }
 }
 
 @media only screen and (max-height: 520px) {
