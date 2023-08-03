@@ -94,6 +94,7 @@ nav {
 	font-family: Roboto;
 	font-weight: 900;
 	margin-bottom: 0;
+	cursor: pointer;
 	/* text-decoration: none; */
 }
 
@@ -200,6 +201,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	cursor: pointer;
 }
 
 #play {
@@ -283,6 +285,10 @@ footer {
 	align-items: center;
 	/* padding-right: 3vw; */
 	height: 100px;
+}
+
+#home_button {
+	color: #00e0d0;
 }
 
 @media only screen and (min-width: 1601px) {
