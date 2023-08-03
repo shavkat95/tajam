@@ -415,10 +415,6 @@ footer {
 		line-height: 0.3rem;
 	}
 
-	.expertise_link {
-		width: 70%;
-	}
-
 	#navigation a {
 		font-size: 0.7rem;
 		margin-left: 3vw;
@@ -471,6 +467,10 @@ footer {
 @media only screen and (max-width: 500px) {
 	#navigation {
 		line-height: 0.4rem;
+	}
+
+	.expertise_link {
+		width: 70%;
 	}
 
 	#navigation a {
