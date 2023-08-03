@@ -195,6 +195,7 @@ p {
 	/* min-height: 550px; */
 }
 #watch {
+	padding-top: 6vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
