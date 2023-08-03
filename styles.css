@@ -62,7 +62,7 @@ img.logo_item {
 	text-align: center;
 	text-align: center;
 	padding-bottom: 0.7vh;
-	padding-top: 0.7vh;
+	padding-top: 1.5vh;
 	padding-left: 1vw;
 	padding-right: 1vw;
 }
@@ -224,8 +224,7 @@ p {
 
 .expertise_link {
 	width: 30%;
-	padding-top: 1vh;;
-	padding-bottom: 1vh;
+	margin: 1%;
 	cursor: pointer;
 }
 
@@ -338,9 +337,7 @@ footer {
 		margin-left: 0vw;
 	}
 
-	.expertise_link {
-		width: 45%;
-	}
+
 
 	.content {
 		width: 100vw;
@@ -372,6 +369,10 @@ footer {
 		justify-content: flex-end;
 		height: 120px;
 		line-height: 0.4rem;
+	}
+
+	.expertise_link {
+		width: 45%;
 	}
 
 	#navigation .row_2 {
